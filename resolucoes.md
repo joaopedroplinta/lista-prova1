@@ -30,7 +30,7 @@
 
 **Grafo 2a:** simples. Com X = {1, 5, 6} e Y = {2, 3, 4}, todo vértice de X se conecta a todo vértice de Y (cada um com grau 3), totalizando 9 arestas = 3 × 3. Logo o grafo é **K₃,₃ — bipartido completo**.
 
-**Grafo 2b:** simples. Contém o triângulo 2-3-4 (ciclo de comprimento 3, ímpar), logo **não é bipartido**.
+**Grafo 2b:** simples. Não é completo: possui 5 vértices, logo K₅ teria $\binom{5}{2} = 10$ arestas, mas o grafo tem apenas 7. Contém o triângulo 2-3-4 (ciclo de comprimento 3, ímpar), logo **não é bipartido**.
 
 ---
 
